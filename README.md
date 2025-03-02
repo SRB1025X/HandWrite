@@ -32,6 +32,8 @@ HandWrite is a **Flutter-based web app** that utilizes **Firebase Genkit** and *
    flutter run
    ```
 
+![Alt Text](assets/hand.png)
+
 ## Project Structure 📂
 ```
 HandWrite/
