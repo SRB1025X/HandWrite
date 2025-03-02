@@ -1,16 +1,62 @@
-# handwrite
+# HandWrite
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
+![Gemini API](https://img.shields.io/badge/Gemini%20API-AI%20Processing-purple?logo=googlecloud)
 
-## Getting Started
+HandWrite is a **Flutter-based web app** that utilizes **Firebase Genkit** and **Gemini API** to detect and analyze handwriting from uploaded images.
 
-This project is a starting point for a Flutter application.
+## Features 🚀
+- Upload handwritten images for text extraction.
+- Utilize **Gemini API** for AI-powered handwriting recognition.
+- Store and manage extracted text using **Firebase Genkit**.
+- User-friendly and responsive UI.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack 🛠️
+- **Frontend:** Flutter (Dart)
+- **Backend:** Firebase Genkit
+- **AI Processing:** Gemini API
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation & Setup ⚙️
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SRB1025X/handwrite.git
+   cd handwrite
+   ```
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+3. **Run the application:**
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure 📂
+```
+HandWrite/
+│── lib/
+│   │── main.dart         # Entry point
+│   │── screens/          # UI Screens
+│   │── services/         # Firebase & API integration
+│   │── widgets/          # Reusable components
+│── assets/               # Images and resources
+│── pubspec.yaml          # Dependencies
+```
+
+## Future Enhancements 🔮
+- Improve handwriting recognition accuracy.
+- Support multiple languages.
+- Enhance UI/UX with animations and themes.
+- Export extracted text to various formats.
+
+## Contributing 🤝
+Feel free to fork this repository and submit pull requests for improvements. Contributions are welcome!
+
+## License 📜
+This project is licensed under the **MIT License**.
+
+---
+
+### 📬 Contact
+For any queries or collaborations, reach out via [GitHub](https://github.com/SRB1025X).
